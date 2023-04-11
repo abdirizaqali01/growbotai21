@@ -6,7 +6,7 @@ import openai
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 # Create your views here.
 def index (request, *args, **kwargs):
